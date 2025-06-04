@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">gameTester</string>
+    <string name="tvStudentDetails">Shailynn Devereux ST10484695</string>
+    <string name="tvAppName">GameTester</string>
+    <string name="btnStart">Start</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnBack">Back</string>
+    <string name="etDate">Enter Date</string>
+    <string name="etMinutes">Enter Minutes Played</string>
+    <string name="radioAction">Action</string>
+    <string name="radioSimulation">Simulation</string>
+    <string name="radioSport">Sport</string>
+    <string name="radioAdventure">Adventure</string>
+    <string name="radioRatingOne">1-2</string>
+    <string name="radioRatingTwo">3-4</string>
+    <string name="radioRatingThree">5</string>
+    <string name="btnAddEntry">Add Entry</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnDetailViews">Detail Views</string>
+</resources>
