@@ -13,6 +13,9 @@
         android:theme="@style/Theme.GameTester"
         tools:targetApi="31">
         <activity
+            android:name=".DetailViews"
+            android:exported="false" />
+        <activity
             android:name=".UserInput"
             android:exported="false" />
         <activity
