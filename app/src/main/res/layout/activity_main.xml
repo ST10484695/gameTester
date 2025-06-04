@@ -15,6 +15,7 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
+        android:background="@drawable/img_1"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +27,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5sp"
-            android:text="@string/tvStudentDetails" />
+            android:text="@string/tvStudentDetails"
+            android:textColor="#fe019a" />
 
         <TextView
             android:id="@+id/tvAppName"
@@ -36,6 +38,7 @@
             android:fontFamily="@font/bangers"
             android:text="@string/tvAppName"
             android:textAlignment="center"
+            android:textColor="#fe019a"
             android:textSize="50sp" />
 
         <Button
@@ -43,6 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="75dp"
             android:layout_margin="20sp"
+            android:backgroundTint="#55f"
             android:text="@string/btnStart"
             android:textSize="18sp" />
 
@@ -51,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="75dp"
             android:layout_margin="20sp"
+            android:backgroundTint="#55f"
             android:text="@string/btnExit"
             android:textSize="18sp" />
     </LinearLayout>

@@ -13,6 +13,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class UserInput : AppCompatActivity() {
+
+    private var intDate = mutableListOf<Int>()
+    private var intMinutes = mutableListOf<Int>()
+
     private lateinit var btnBack:Button
     private lateinit var etDate:EditText
     private lateinit var etMinutes:EditText
@@ -103,7 +107,13 @@ class UserInput : AppCompatActivity() {
             val intent=Intent(this,DetailViews::class.java)
             startActivity(intent)
         }
+         fun dataEntry(){
+            val intDate=etDate.text.toString().toIntOrNull()
+            val intMinutes=etMinutes.text.toString().toIntOrNull()
+            if (intDate !=null && intMinutes!=null){
 
+            }
+        }
 
 
         }

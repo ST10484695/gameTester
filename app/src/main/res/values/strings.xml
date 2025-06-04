@@ -16,5 +16,7 @@
     <string name="radioRatingThree">5</string>
     <string name="btnAddEntry">Add Entry</string>
     <string name="btnClear">Clear</string>
+    <string name="neonBlue">#55f</string>
+    <string name="neonPink">#fe019a</string>
     <string name="btnDetailViews">Detail Views</string>
 </resources>
