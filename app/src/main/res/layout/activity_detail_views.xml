@@ -8,8 +8,8 @@
     tools:context=".DetailViews">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -27,20 +27,23 @@
             android:layout_height="50dp"
             android:layout_margin="5sp"
             android:backgroundTint="#55f"
-            android:text="Back" />
+            android:text="@string/btnBack2" />
 
         <TextView
             android:id="@+id/tvTotalEntries"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:layout_margin="10dp"
+            android:textSize="20dp"
             android:background="@color/white" />
 
         <TextView
             android:id="@+id/tvHighestRated"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:textSize="35dp"
             android:layout_margin="10sp"
+            android:textColor="#000000"
             android:background="@color/white" />
 
         <TextView
@@ -48,6 +51,18 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_margin="10sp"
+            android:textSize="35dp"
+            android:textColor="#000000"
             android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvAllEntries"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10sp"
+            android:background="@color/white"
+            android:textSize="35dp"
+            android:textColor="#000000"
+            android:textAlignment="center" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

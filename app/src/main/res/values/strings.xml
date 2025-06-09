@@ -5,6 +5,7 @@
     <string name="btnStart">Start</string>
     <string name="btnExit">Exit</string>
     <string name="btnBack">Back</string>
+    <string name="etGameName">Enter Games Name</string>
     <string name="etDate">Enter Date</string>
     <string name="etMinutes">Enter Minutes Played</string>
     <string name="radioAction">Action</string>
@@ -16,6 +17,10 @@
     <string name="radioRatingThree">5</string>
     <string name="btnAddEntry">Add Entry</string>
     <string name="btnClear">Clear</string>
+    <string name="btnBack2">Back</string>
+    <string name="tvTotalEntries"></string>
+    <string name="tvAverageMinutes"></string>
+    <string name="tvHighestRated"></string>
     <string name="neonBlue">#55f</string>
     <string name="neonPink">#fe019a</string>
     <string name="btnDetailViews">Detail Views</string>
